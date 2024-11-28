@@ -1,0 +1,113 @@
+/* Reset e estilos gerais */
+* {
+    margin: 0; /* Remove qualquer margem padrão */
+    padding: 0; /* Remove qualquer preenchimento padrão */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte geral para o texto */
+    box-sizing: border-box; /* Faz com que o preenchimento e as bordas sejam incluídos nas dimensões dos elementos */
+}
+
+body {
+    background: #001e4d; /* Define a cor de fundo do corpo da página */
+}
+
+.app {
+    background: #fff; /* Define o fundo branco para a aplicação */
+    width: 90%; /* Define a largura da aplicação como 90% da largura da tela */
+    max-width: 600px; /* Define a largura máxima da aplicação */
+    margin: 100px auto 0; /* Centraliza a aplicação na tela com uma margem superior de 100px */
+    border-radius: 10px; /* Arredonda os cantos da aplicação */
+    padding: 30px; /* Define o preenchimento interno da aplicação */
+}
+
+.app h1 {
+    text-align: center;
+    font-size: 35px; /* Define o tamanho da fonte para o título */
+    color: #001e4d; /* Define a cor do título */
+    font-weight: 600; /* Define o peso da fonte (negrito) */
+    border-bottom: 1px solid #333; /* Adiciona uma borda inferior no título */
+    padding-bottom: 30px; /* Adiciona um preenchimento inferior ao título */
+}
+
+.quiz {
+    padding: 20px 0; /* Adiciona preenchimento na parte superior e inferior do quiz */
+}
+
+.quiz h2 {
+    font-size: 18px; /* Define o tamanho da fonte para o subtítulo */
+    color: #222; /* Define a cor do subtítulo */
+}
+
+.tela-inicial {
+    text-align: center; /* Centraliza o texto na tela inicial */
+    padding: 20px; /* Adiciona preenchimento ao redor do conteúdo na tela inicial */
+}
+
+.tela-inicial h2 {
+    margin: 20px; /* Adiciona uma margem inferior ao título da tela inicial */
+}
+
+.botaoAcao {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos botões */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro (mãozinha) quando o botão é sobrevoado */
+}
+
+.quiz {
+    display: none; /* Inicialmente esconde a área do quiz */
+    text-align: center; /* Centraliza o conteúdo do quiz */
+}
+
+.botao {
+    background: #fff; /* Define o fundo branco para os botões de resposta */
+    color: #222; /* Define a cor do texto nos botões */
+    font-weight: 500; /* Define o peso da fonte */
+    width: 100%; /* Faz o botão ocupar 100% da largura do seu contêiner */
+    border: 1px solid #222; /* Adiciona uma borda ao redor do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    margin: 10px 0; /* Adiciona uma margem superior e inferior ao botão */
+    text-align: left; /* Alinha o texto do botão à esquerda */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro quando o botão é sobrevoado */
+    transition: all 0.3s; /* Define uma transição suave para as mudanças de estado (como hover) */
+}
+
+/* Efeito de hover nos botões de resposta */
+.botao:hover:not([disabled]) {
+    background: #222; /* Altera o fundo do botão quando o mouse está sobre ele */
+    color: #fff; /* Altera a cor do texto do botão para branco */
+}
+
+.botao:disabled {
+    cursor: not-allowed; /* Altera o cursor para indicar que o botão está desabilitado */
+}
+
+.botaoAcao {
+    background: #001e4d; /* Define a cor de fundo do botão de ação */
+    color: #fff; /* Define a cor do texto do botão de ação como branco */
+    font-weight: 500; /* Define o peso da fonte do botão de ação */
+    width: 150px; /* Define uma largura fixa para o botão de ação */
+    border: 0; /* Remove a borda do botão de ação */
+    padding: 10px; /* Adiciona preenchimento interno ao botão de ação */
+    margin: 20px auto 0; /* Centraliza o botão de ação e adiciona uma margem superior */
+    border-radius: 4px; /* Arredonda os cantos do botão de ação */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao botão de ação */
+}
+
+#botao-proximo {
+    display: none; /* Inicialmente esconde o botão de próxima questão */
+}
+
+.reiniciar-quiz {
+    display: none; /* Inicialmente esconde a área para reiniciar o quiz */
+    text-align: center; /* Centraliza o texto na área de reiniciar o quiz */
+    margin-top: 20px; /* Adiciona uma margem superior */
+}
+
+/* Estilo para os botões de resposta corretos e incorretos */
+.correta {
+    background: #9aeabc; /* Define a cor de fundo para respostas corretas */
+}
+
+.incorreta {
+    background: #ff9393; /* Define a cor de fundo para respostas incorretas */
+}

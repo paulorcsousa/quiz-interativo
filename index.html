@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres para UTF-8, permitindo caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Define a escala e visualização responsiva para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que aparecerá na aba do navegador -->
+    <title>Quiz Interativo</title>
+    <!-- Importa o arquivo CSS externo para estilizar o quiz -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Div principal que centraliza o conteúdo do quiz -->
+    <div class="app">
+        <!-- Título principal do quiz -->
+        <h1>Quiz de Conhecimentos</h1>
+        
+        <!-- Tela inicial com o botão "Iniciar Quiz" -->
+        <div id="tela-inicial" class="tela-inicial">
+            <h2>Prepare-se para o Desafio do Conhecimento!</h2>
+            <button id="botao-iniciar" class="botaoAcao">Iniciar Quiz</button>
+        </div>
+
+        <!-- Container do quiz -->
+        <div class="quiz">
+            <!-- Área onde a pergunta será exibida -->
+            <h2 id="pergunta">As questões serão exibidas aqui!</h2>
+            <!-- Div que contém os botões de resposta -->
+            <div id="botoes-respostas">
+                <!-- Botões de respostas (serão substituídos dinamicamente pelo JavaScript) -->
+                <button class="botao">Resposta 1</button>
+                <button class="botao">Resposta 2</button>
+                <button class="botao">Resposta 3</button>
+                <button class="botao">Resposta 4</button>
+            </div>
+            <!-- Botão para avançar para a próxima questão -->
+            <button id="botao-proximo" class="botaoAcao">Próxima Questão</button>
+        </div>
+
+        <!-- Botão de reinício do quiz -->
+        <div id="reiniciar-quiz" class="reiniciar-quiz">
+            <button id="botao-reiniciar" class="botaoAcao">Reiniciar Quiz</button>
+        </div>
+    </div>
+    <!-- Importa o arquivo JavaScript que controla a lógica do quiz -->
+    <script src="script.js"></script>
+</body>
+</html>

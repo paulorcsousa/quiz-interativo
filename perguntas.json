@@ -1,0 +1,93 @@
+[
+    {
+      "pergunta": "Qual método é utilizado para adicionar um item ao final de um array em JavaScript?",
+      "respostas": [
+        { "texto": "push()", "correta": true },
+        { "texto": "unshift()", "correta": false },
+        { "texto": "pop()", "correta": false },
+        { "texto": "shift()", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "O que o operador `==` faz em JavaScript?",
+      "respostas": [
+          { "texto": "Compara dois valores e verifica o tipo e o valor", "correta": false },
+          { "texto": "Atribui um valor a uma variável", "correta": false },
+          { "texto": "Cria um novo objeto", "correta": false },
+          { "texto": "Compara dois valores para igualdade, mas sem considerar o tipo", "correta": true }
+      ]
+    },
+    {
+      "pergunta": "O que significa a palavra-chave `this` em JavaScript?",
+      "respostas": [
+        { "texto": "Refere-se ao objeto atual no contexto da função", "correta": true },
+        { "texto": "Define o valor de uma variável global", "correta": false },
+        { "texto": "Refere-se ao método em execução", "correta": false },
+        { "texto": "Cria uma nova função", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "Qual a diferença entre `null` e `undefined` em JavaScript?",
+      "respostas": [
+          { "texto": "`null` é um tipo de objeto e `undefined` é um tipo primitivo", "correta": false },
+          { "texto": "`null` representa um objeto vazio, enquanto `undefined` é o valor de uma variável não declarada", "correta": false },
+          { "texto": "`null` é um valor atribuído, enquanto `undefined` significa que a variável não foi inicializada", "correta": true },
+        { "texto": "`null` é um valor de tipo string e `undefined` é um número", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "O que é uma função anônima em JavaScript?",
+      "respostas": [
+        { "texto": "Uma função sem nome", "correta": true },
+        { "texto": "Uma função que não retorna valor", "correta": false },
+        { "texto": "Uma função que é declarada dentro de um objeto", "correta": false },
+        { "texto": "Uma função que não pode ser chamada", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "Como se cria uma variável constante em JavaScript?",
+      "respostas": [
+          { "texto": "let nome = 'valor';", "correta": false },
+          { "texto": "var nome = 'valor';", "correta": false },
+          { "texto": "const nome = 'valor';", "correta": true },
+        { "texto": "constant nome = 'valor';", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "O que faz o método `slice()` em JavaScript?",
+      "respostas": [
+          { "texto": "Adiciona elementos ao final de um array", "correta": false },
+          { "texto": "Remove o último elemento de um array", "correta": false },
+          { "texto": "Ordena os elementos de um array", "correta": false },
+          { "texto": "Retorna uma cópia rasa de uma parte de um array ou string", "correta": true }
+      ]
+    },
+    {
+      "pergunta": "O que é o `localStorage` em JavaScript?",
+      "respostas": [
+          { "texto": "Um tipo de banco de dados que armazena dados no servidor", "correta": false },
+          { "texto": "Um armazenamento local no navegador que persiste dados entre sessões", "correta": true },
+        { "texto": "Uma variável global que armazena dados temporários", "correta": false },
+        { "texto": "Uma forma de armazenar arquivos no computador do usuário", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "Qual é a diferença entre `for` e `forEach` em JavaScript?",
+      "respostas": [
+        { "texto": "`for` é uma estrutura de loop tradicional, enquanto `forEach` é um método de array", "correta": true },
+        { "texto": "`for` é usado apenas para arrays, enquanto `forEach` funciona com qualquer objeto", "correta": false },
+        { "texto": "`forEach` é mais eficiente que `for` em termos de performance", "correta": false },
+        { "texto": "`forEach` permite interrupções, enquanto `for` não permite", "correta": false }
+      ]
+    },
+    {
+      "pergunta": "O que faz o operador `typeof` em JavaScript?",
+      "respostas": [
+          { "texto": "Compara o tipo de duas variáveis", "correta": false },
+          { "texto": "Altera o tipo de uma variável", "correta": false },
+          { "texto": "Retorna o tipo de dado de uma variável", "correta": true },
+        { "texto": "Cria uma variável com um tipo específico", "correta": false }
+      ]
+    }
+  ]
+  
